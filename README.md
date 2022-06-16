@@ -2,26 +2,37 @@
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/gridsome"><img src="src\deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
-# Gridsome!
+This is a very basic example of a simple Gridsome App.
 
-This is a very basic example of a simple Gridsome app.
+<img src="src\gridsome.png" alt="screenshot of the Gridsome app" width="100%" />
+
+# Steps to clone this repository and run locally.
 
 
-Clone this [elestio-examples/gridsome](https://github.com/elestio-examples/gridsome) 
+### Step 1: Clone this repository.
 
 ```
 git clone https://github.com/elestio-examples/gridsome.git
 ```
-Change into project directory.
+### Step 2: Go to project folder.
+
+```
+cd gridsome
+```
+
+### Step 3: Install dependencies.
 
 ```
 yarn install
+```
+
+### Step 4: Run your app in dev mode.
+
+```
 yarn develop
 ```
 
-This starts your app in development mode, make the changes and push.
-
-<img src="src\gridsome.png" alt="screenshot of the Gridsome app" width="100%" />
+### Step 5: Make some changes and push.
 
 
 ## CI/CD on Elestio
@@ -110,4 +121,3 @@ It will take a few seconds to deploy your pipeline on elestio.
 For each pipeline deployed on elestio will create a cname for it. but if you want your custom domain then you can configure it inside the target details.
 
 After Pipeline is deployed you can able to view the app by visiting the pipeline domain.
-

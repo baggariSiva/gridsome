@@ -2,10 +2,10 @@ config:
   runTime: "NodeJs"
   version: ""
   framework: "Gridsome"
-  buildCommand: "npm run build"
+  buildCommand: "yarn build"
   buildDir: "dist"
-  runCommand: "npm run develop"
-  installCommand: "npm install"
+  runCommand: "yarn develop"
+  installCommand: "yarn install"
 ports:
   - protocol: "HTTPS"
     targetProtocol: "HTTP"
