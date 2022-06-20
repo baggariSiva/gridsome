@@ -1,4 +1,4 @@
-# Gridsome on Elestio
+# Gridsome using gridsome create on Elestio
 
 This is a minimal example of a Gridsome site created using gridsome create
 
